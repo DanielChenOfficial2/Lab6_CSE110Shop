@@ -5,5 +5,5 @@ window.addEventListener('DOMContentLoaded', () => {
   fetch('https://fakestoreapi.com/products')
     .then(response => response.json());
   myStorage = window.localStorage;
-  localStorage.setItem('PriCon');
+  localStorage.setItem('mygame', 'PriCon');
 });

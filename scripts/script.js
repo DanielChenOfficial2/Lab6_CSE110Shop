@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem(`${product.id}`, 'test');
           
       }  
-    }
+    })
   myStorage = window.localStorage;
   localStorage.setItem('mygame', 'PriCon');
 });

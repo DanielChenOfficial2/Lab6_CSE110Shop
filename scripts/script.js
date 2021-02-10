@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', () => {
     .then(response => response.json())
     .then(data => {
       for (const product of data.products) {
-        localStorage.setItem(${product.id}, 'test')
+        localStorage.setItem(${product.id}, 'test');
           
       }  
   myStorage = window.localStorage;

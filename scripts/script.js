@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', () => {
   fetch('https://fakestoreapi.com/products')
     .then(response => response.json())
     .then(data => {
-      for (const product of data.products) {
+      for (const product of data) {
         localStorage.setItem(`${product.id}`, 'test');
           
       }  
